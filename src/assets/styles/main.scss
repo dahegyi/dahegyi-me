@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  font-weight: normal;
+  src: url(~/assets/fonts/ms_sans_serif.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  font-weight: bold;
+  src: url(~/assets/fonts/ms_sans_serif_bold.woff2) format("woff2");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:focus {
+  // @todo: add focus styles
+  outline: none;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  background: black;
+  color: black;
+}
+
+canvas {
+  image-rendering: pixelated;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+button,
+.button,
+input[type="submit"] {
+  min-width: 75px;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 0;
+  background: silver;
+  box-shadow:
+    inset -1px -1px #0a0a0a,
+    inset 1px 1px #fff,
+    inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+  color: transparent;
+  cursor: pointer;
+  font-family: "Pixelated MS Sans Serif", Arial, sans-serif;
+  font-size: 11px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+  text-shadow: 0 0 #222;
+  user-select: none;
+
+  &:active {
+    box-shadow:
+      inset -1px -1px #fff,
+      inset 1px 1px #0a0a0a,
+      inset -2px -2px #dfdfdf,
+      inset 2px 2px grey;
+    text-shadow: 1px 1px #222;
+  }
+}
+
+.main {
+  font-family: Arial, sans-serif;
+}
