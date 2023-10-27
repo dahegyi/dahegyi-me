@@ -1,9 +1,8 @@
 # my cute little portfolio website
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/dahegyi/dahegyi-me)
-![GitHub repo size](https://img.shields.io/github/repo-size/dahegyi/dahegyi-me)
 [![Deploy to Firebase Hosting](https://github.com/dahegyi/szabadbisztro/actions/workflows/firebase-deploy.yml/badge.svg)](https://github.com/dahegyi/szabadbisztro/actions/workflows/firebase-deploy.yml)
-[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-black.svg)](https://opensource.org/licenses/MIT)
+[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-black.svg)](https://en.wikipedia.org/wiki/Unlicense)
 
 Live website available at [dahegyi.me](https://dahegyi.me/)
 
