@@ -10,8 +10,8 @@ Live website available at [dahegyi.me](https://dahegyi.me/)
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/en/) installed on your machine
-- [Firebase CLI](https://firebase.google.com/docs/cli) installed on your machine
+- [Node.js](https://nodejs.org/en/)
+- [Firebase CLI](https://firebase.google.com/docs/cli)
 
 ### Installation
 
@@ -30,7 +30,7 @@ Live website available at [dahegyi.me](https://dahegyi.me/)
 
 ## Deployment
 
-The website is deployed automatically to Firebase Hosting on every push to the `main` btranch.
+The website is deployed automatically to Firebase Hosting on every push to the `main` branch.
 
 ### Deployment without Github Actions:
 
