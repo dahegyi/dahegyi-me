@@ -28,11 +28,20 @@ export const PORTFOLIO_ITEMS = [
   {
     key: MODAL_TYPES.SZABAD,
     title: "szabad bisztró website",
-    description: "website for a local restaurant in budapest",
+    description: "my favourite vegan bistro in bp <3<3",
     video: szabadVideo,
     actions: [ACTIONS.OPEN_GITHUB, ACTIONS.OPEN_WEBSITE],
     github: "https://github.com/dahegyi/szabadbisztro",
     website: "https://szabadbisztro.hu/",
+  },
+  {
+    key: MODAL_TYPES.MARTON,
+    title: "marton selley portfolio",
+    description: "it ain't much, but it's honest work",
+    video: "https://i.imgur.com/wpBc7Xi.mp4",
+    actions: [/* ACTIONS.OPEN_GITHUB, */ ACTIONS.OPEN_WEBSITE],
+    github: "https://github.com/dahegyi/martonselley",
+    website: "https://martonselley.com/",
   },
   // {
   //   key: MODAL_TYPES.BOGI,
